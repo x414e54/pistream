@@ -1,0 +1,1 @@
+raspivid -w 640 -h 480 -t 3600000 -fps 25 -o - | ./s3cmd/s3cmd put - --access_key=$ACCESS_ID --secret_key=$ACCESS_KEY s3://$BUCKET
