@@ -10,3 +10,4 @@ fi
 wget http://downloads.sourceforge.net/project/s3tools/s3cmd/1.5.0-beta1/s3cmd-1.5.0-beta1.tar.gz
 tar xvfz s3cmd-1.5.0-beta1.tar.gz
 
+echo "*/15 * * * * ~/code/pistream/get_schedule.sh" | crontab -
