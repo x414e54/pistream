@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get install libav-tools python
 
-wget https://github.com/x414e54/s3cmd/releases/download/untagged-1897ab45fed14a4b5aaf/s3cmd.tar.gz
+wget https://github.com/x414e54/s3cmd/releases/download/test/s3cmd.tar.gz
 tar xvfz s3cmd.tar.gz
 
 echo "*/15 * * * * ~/code/pistream/get_schedule.sh" | crontab -
